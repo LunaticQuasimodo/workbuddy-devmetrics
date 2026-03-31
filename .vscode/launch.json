@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run DevMetrics Analysis",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "devmetrics-init",
+      "program": "${workspaceFolder}/src/index.js"
+    }
+  ]
+}
